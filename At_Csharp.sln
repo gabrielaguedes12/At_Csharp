@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "At_Csharp", "At_Csharp.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exc2", "..\exc2\exc2.csproj", "{CDE78DCD-E17C-47F9-865D-F074701832CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex3", "..\ex3\ex3.csproj", "{59CBDC49-3343-4FF0-9064-6CB5AEF7177F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex4", "..\ex4\ex4.csproj", "{27FC16A5-72B3-4713-A1DF-8056301EF85C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{CDE78DCD-E17C-47F9-865D-F074701832CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDE78DCD-E17C-47F9-865D-F074701832CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDE78DCD-E17C-47F9-865D-F074701832CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CBDC49-3343-4FF0-9064-6CB5AEF7177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CBDC49-3343-4FF0-9064-6CB5AEF7177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CBDC49-3343-4FF0-9064-6CB5AEF7177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CBDC49-3343-4FF0-9064-6CB5AEF7177F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FC16A5-72B3-4713-A1DF-8056301EF85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FC16A5-72B3-4713-A1DF-8056301EF85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FC16A5-72B3-4713-A1DF-8056301EF85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FC16A5-72B3-4713-A1DF-8056301EF85C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
