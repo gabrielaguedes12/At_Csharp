@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace exc2
 {
     internal class Program
@@ -10,20 +11,22 @@ namespace exc2
 
             char[] caracteres = nome.ToCharArray();
 
-            for (int i = 0; i< caracteres.Length; i++)
+            for (int i = 0; i < caracteres.Length; i++)
             {
                 char c = caracteres[i];
 
-                if (c >= 'A' && c<= 'Z')
+                if (c >= 'A' && c <= 'Z')
                 {
-                    caracteres[i] = (char)(((c - 'A' + 2)% 26)+'A');
+                    caracteres[i] = (char)(((c - 'A' + 2) % 26) + 'A');
                 }
-                else if (c >= 'a' && c<= 'z')
+                else if (c >= 'a' && c <= 'z')
                 {
                     caracteres[i] = (char)(((c - 'a' + 2) % 26) + 'a');
                 }
             }
+
             string resultado = new string(caracteres);
             Console.WriteLine("Nome cifrado: " + resultado);
         }
     }
+}
